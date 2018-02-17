@@ -1,7 +1,7 @@
 var width ;
 var height ;
 
-function setup() {
+/*function setup() {
   width = 800;
   height = 800;
 	createCanvas(width, height);
@@ -31,8 +31,8 @@ function setup() {
 	/*for (var y=-height; y < height; y+=40) {
 		line(-width, y, width, y);
 		text(y, 1, y+12);
-	}*/
-}
+	}
+}*/
 
 /*function draw() {
 	background(240);
@@ -55,3 +55,11 @@ function drawGrid() {
 		text(y, 1, y+12);
 	}
 }*/
+
+
+
+function myFunction(a, b) {
+    return a * b;            // Function returns the product of a and b
+}
+var x = myFunction(4, 3);    // Function is called, return value will end up in x
+console.log(x);
